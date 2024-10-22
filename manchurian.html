@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe-Maker</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style>
+    body {
+      position: relative;
+      min-height: 100vh;
+      color: white;
+    }
+
+    body::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url("https://vegecravings.com/wp-content/uploads/2017/03/veg-manchurian-dry-recipe-step-by-step-instructions-10.jpg");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      z-index: -1;
+      filter: brightness(40%);
+    }
+    .no-underline {
+      text-decoration: none;
+      color: white;
+    }
+  </style>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-dark border-bottom border-body"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand me-3" href="./index.html">
+          <img
+            src="./logo.png"
+            alt="Logo"
+            width="30"
+            height="30"
+            class="d-inline-block align-text-top"
+          />
+          Cook Create Enjoy
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h1 class="mt-3 display-2 fw-bold">Manchurian Recipe</h1>
+      <p class="mt-1 fs-5">
+        Easy to follow steps for the perfect Veg Manchuria
+      </p>
+    </div>
+    <div class="container mt-5">
+      <h1 class="display-5 fw-bold">Ingredients</h1>
+      <div class="row">
+        <div class="col-4">
+          <ul class="list-group">
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Corn flour: 1/2 cup
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Maida flour: 1/2 cup
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Spring onion
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Soy sauce
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Minced garlic
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Coriander Leaves: chopped
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Salt: To taste
+            </li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <ul class="list-group">
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Ground pepper
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Salt & Coriander
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Onions: 2, chopped
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Tomatoes: 2, chopped
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Green Chilies: 3-4, slit
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Oil: 3 tbsp
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Water: 1 cup
+            </li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <ul class="list-group">
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Ginger-Garlic Paste: 2 tbsp
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Turmeric Powder: 1/2 tsp
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Red Chili Powder: 2 tsp
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Coriander Powder: 1 tbsp
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Cumin Powder: 1 tsp
+            </li>
+            <li class="list-group-item bg-transparent border-0 text-white">
+              Garam Masala: 1 tsp
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container mb-5">
+      <h1 class="display-5 fw-bold">Procedure</h1>
+      <div class="text-center mb-4">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/60Myf-mYZCc?si=VobksiboXAcHYymL"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        >
+        </iframe>
+      </div>
+
+      <ol class="list-group list-group-numbered">
+        <li class="list-group-item bg-transparent text-white">
+          <b>Veggies Paste:</b> Take all the veggies, finely chopped, in a bowl
+          along with ginger, garlic, corn flour, maida, salt, black pepper, and
+          soy sauce.
+        </li>
+
+        <li class="list-group-item bg-transparent text-white">
+          <b>Mixing:</b> Mix them well, adding water as required for
+          consistency.
+        </li>
+
+        <li class="list-group-item bg-transparent text-white">
+          <b>Making Balls:</b> Make round balls out of the thick vegetable
+          mixture.
+        </li>
+
+        <li class="list-group-item bg-transparent text-white">
+          <b>Deep Fry:</b> Now deep fry the vegetable balls in a pan.
+        </li>
+
+        <li class="list-group-item bg-transparent text-white">
+          <b>Prepare Sauce:</b> Heat some oil in a pan and roast ginger, garlic,
+          and green chili for a whilAdd spring onion, tomato ketchup, chili
+          sauce, soy sauce, and vinegar followed by salt and black pepper.
+        </li>
+
+        <li class="list-group-item bg-transparent text-white">
+          <b>Mixing:</b> Mix them well and add a mixture of corn flour plus
+          water to the paMix thoroughly and put the fried vegetable balls into
+          the mixture.
+        </li>
+
+        <li class="list-group-item bg-transparent text-white">
+          <b>Serve:</b> Properly mix the balls along with the saucGarnish with
+          spring onion and celerServe hot along with cooked rice.
+        </li>
+      </ol>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-1">
+      <p>© 2024 Cook, Create and Enjoy! All Rights Reserved.</p>
+      <p>Follow us on social media: [links]</p>
+    </footer>
+  </body>
+</html>
